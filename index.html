@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Blackjack Game</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./main.css">
+    </head>
+    <body>
+        <div class="main">
+            <div class="main-page">
+                <img src="./blackjack_assets/images/main-image.jpg" alt="">
+                <div class="container-1">
+                    <button type="button" class="letsplay btn " onclick="window.open('./blackjack.html','_blank');">Let's Play</button>
+                    <button type="button" class="btn" id="rules">Rules</button>
+                    <div class="rules">
+                        <button type="button" class="btn" id="hide">Hide Rules</button>
+                        <ul>
+                            <li>The goal of blackjack is to beat the dealer's hand without going over 21.</li>
+                            <li>To 'Hit' is to ask for another card. To 'Stand' is to hold your total and end your turn.</li>
+                            <li>To 'Deal' is to ask for another game.</li>
+                            <li>Dealer will hit until his/her cards total 17 or higher.</li>
+                            <li>If you go over 21 you bust, and the dealer wins regardless of the dealer's hand.</li>
+                         </ul>
+                     </div>
+                </div>
+             <script src="./jquery.js"></script>  
+             <script>
+                 $("document").ready(function(){
+                    $('.rules').hide();
+                    $("#rules").click(function(){
+                        $('.rules').show();
+                    });
+                    $('#hide').click(function(){
+                        $('.rules').hide();
+                    });
+                 });
+             </script>
+            </div>
+        </div>
+    </body>
+</html>

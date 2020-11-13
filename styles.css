@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 75%;
+    margin: 100px auto; 
+}
+.container-blackjack{
+    border: 1px black solid;
+    margin: 0 auto;
+    text-align: center;
+}
+.Blackjack-row-1,.Blackjack-row-2{
+    background: url("./blackjack_assets/images/darkgreen.png");
+    color: #ffffff ;
+}
+.Blackjack-row-1 div{
+    border: 1px black solid;
+    height: 350px;
+    text-align: center;
+    padding: 10px;
+    flex: 1;
+}
+.Blackjack-row-1{
+    padding: 10px;
+    display: flex;
+}
+table,th,td{
+    padding: 5px;
+    border: 1px black solid;
+    text-align: center;
+}
+#your-box img,#dealer-box img{
+    height: 130px;
+}
+.Blackjack-row-3{
+   width: 30%;
+   margin: 20px auto;
+   display: flex;
+   align-items: center;
+}

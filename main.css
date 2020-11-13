@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #4a9e61;
+}
+.main-page{
+    width: 90%;
+    margin: 0 auto;
+}
+.main-page img{
+    margin: 65px 280px 30px;
+}
+button{
+    height: 40px;
+    width: 150px;
+    outline: none;
+    background-color: #09b554!important;
+    margin: 12px 27rem;
+    color: #ffffff!important;
+
+}
+button:hover{
+    outline: none;
+    border: 4px solid #09b554;
+    background-color: transparent!important;
+    
+}
